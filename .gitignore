@@ -1,0 +1,80 @@
+# Environment and Configuration
+.env
+.env.local
+.env.*.local
+
+# Gmail Authentication (SENSITIVE)
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Generated run data
+metrics/runs.json
+
+# Timetable cache (auto-generated, refreshes every 7 days)
+cache/timetables.json
+
+# HTML reports (generated output)
+report_*.html
+
+# Output log files
+output_*.txt
+
+# Extras / local PDFs
+Extras/
+
+# Claude Code local settings
+.claude/
